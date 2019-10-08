@@ -1,0 +1,54 @@
+#content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    background-color: #222;
+    border-color: #080808;
+    color: white;
+}
+
+.panel {
+    background-color: #222;
+    border-color: #080808;
+    color: white;
+}
+
+.container .text-muted {
+	margin: 20px 0;
+}
+
+.divider {
+    border-left: thin solid #dbd8d8;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+    background-color: #222;
+    border-color: #080808;
+}
+
+body {
+    background-color: grey;
+    background: url(../res/photos/skyline.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+@media only screen and (orientation:portrait) {
+    #content {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.9;
+    }
+}
