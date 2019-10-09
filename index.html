@@ -13,6 +13,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/bf92fdc50d.js" crossorigin="anonymous"></script>
 		<link href="style/style.css" rel="stylesheet"/>
 		<link rel="icon" href="res/favicons/logo.ico" type="image/x-icon">
 		<link rel="icon" href="res/favicons/logo.svg" type="image/svg+xml">
@@ -21,6 +22,7 @@
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
+					<!-- This button creates the hamburger menu on mobile -->
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
@@ -31,19 +33,25 @@
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#" class="glyphicon glyphicon-home"></a></li>
-						<li><a href="https://ca.linkedin.com/in/zachary-lazzara" target="_blank">LinkedIn</a></li>
-						<li><a href="https://github.com/Zachary-Lazzara" target="_blank">GitHub</a></li>
+						<li class="active"><a href="#" class="fa fa-home"></a></li>
+						<li><a href="https://github.com/Zachary-Lazzara" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+						<li><a href="https://linkedin.com/in/zachary-lazzara" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+						<li><a href="https://twitter.com/ZacharyLazzara" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="res/pdf/lazzara_zachary.pdf" target="_blank"><span class="glyphicon glyphicon-save"></span>Download Resume</a></li>
+						<li><a href="res/pdf/zlazzara_resume.pdf" target="_blank"><i class="fa fa-download"></i> Download Resume</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 		<div class="well" id="content">
 			<h3>About Me</h3>
-			<p>I'm Zachary Lazzara; a Sheridan College graduate, currently living in the Greater Toronto Area, whose achieved their Computer Systems Technology Systems Analyst diploma (with co-op), and achieved a GPA of 3.1 (out of 4). I also wrote this responsive website.</p>
+			<p>I'm Zachary Lazzara, a Sheridan College graduate currently living in the Greater Toronto Area, whose achieved their Computer Systems Technology Systems Analyst diploma (with co-op), with a GPA of 3.1. Since Sheridan I've been accepted into the University of Toronto Mississauga's CCIT undergraduate course, but am planning to put my studies on hold to gain experience in the work force.</p>
+			<h3>Education</h3>
+			<p>Communication, Culture, Information & Technology &nbsp;<span class="divider"></span>&nbsp; B.A. &nbsp;<span class="divider"></span>&nbsp; September 2018 &nbsp;&mdash;&nbsp; Present<br><i>University of Toronto, Mississauga, ON</i></p>
+			<p>Computer Systems Technology Systems Analyst (co-op) &nbsp;<span class="divider"></span>&nbsp; Diploma &nbsp;<span class="divider"></span>&nbsp; January 2014 &nbsp;&mdash;&nbsp; April 2017<br><i>Sheridan College, Oakville, ON</i></p>
+			<h3>Skills</h3>
+			<p>Java, Python, Android, HTML5, PL/SQL, Javascript, CSS, C#, ASP, ADO, XML, .NET, Linux, Bash, Windows, Powershell, Networking, Virtual Machines, OS X, and many more.</p>
 			<h3>Work Experience</h3>
 			<div class="panel-group">
 				<div class="panel panel-default">
@@ -54,9 +62,9 @@
 					</div>
 					<div id="experience_1" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="https://www.sheridancollege.ca/" target="_blank"><span class="glyphicon glyphicon-globe"></span>Sheridan College</a>
+							<a href="https://www.sheridancollege.ca/" target="_blank"><i class="fa fa-link"></i> Sheridan College</a>
 							<p>April 2018 - August 2018 (5 month contract)</p>
-							<p>Upon graduating from Sheridan College I came back for a short while to assist with the paper the professors were writing on what we learned through the indoor location service project. I helped source citations and conducted further research on the topic, to help explain the results we saw with respect to the results others have published. You can find the paper on IEEE Xplore here: <a href="https://ieeexplore.ieee.org/document/8614852" target="_blank"><span class="glyphicon glyphicon-globe"></span>A New Set of Bluetooth-Based Fingerprinting Algorithms for Indoor Location Services</a></p>
+							<p>Upon graduating from Sheridan College I came back for a short while to assist with the paper the professors were writing on what we learned through the indoor location service project. I helped source citations and conducted further research on the topic, to help explain the results we saw with respect to the results others have published. You can find the paper on IEEE Xplore here: <a href="https://ieeexplore.ieee.org/document/8614852" target="_blank"><i class="fa fa-link"></i> A New Set of Bluetooth-Based Fingerprinting Algorithms for Indoor Location Services</a></p>
 						</div>
 					</div>
 				</div>
@@ -68,7 +76,7 @@
 					</div>
 					<div id="experience_2" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="https://www.sheridancollege.ca/" target="_blank"><span class="glyphicon glyphicon-globe"></span>Sheridan College</a>
+							<a href="https://www.sheridancollege.ca/" target="_blank"><i class="fa fa-link"></i> Sheridan College</a>
 							<p>March 2017 - June 2017 (4 month co-op)</p>
 							<p>During my second co-op at Sheridan College, my duties were to research various wireless communication technologies, and determine which technology would be best suited to provide an indoor location service. After conducting some research I recommended using Bluetooth, due to the high availability of low cost Bluetooth beacons. I then began developing the indoor location service on Android, using the Bluetooth beacons as anchor points and trilateration to determine the device's position, as well as researching and recommending other positioning methods we might look into in the future.</p>
 						</div>
@@ -82,7 +90,7 @@
 					</div>
 					<div id="experience_3" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="https://www.sheridancollege.ca/" target="_blank"><span class="glyphicon glyphicon-globe"></span>Sheridan College</a>
+							<a href="https://www.sheridancollege.ca/" target="_blank"><i class="fa fa-link"></i> Sheridan College</a>
 							<p>March 2016 - June 2016 (4 month co-op)</p>
 							<p>During my fist co-op at Sheridan College, my duties were to research the 7 dimensions of wellness and figure out how to best create an application or web portal centred around wellness. After my initial research it was then my duty to create wireframes to plan out the application/web portal. From there I then began developing a prototype Android application, which would later be handed off to the next co-op student.</p>
 						</div>
@@ -96,15 +104,13 @@
 					</div>
 					<div id="experience_4" class="panel-collapse collapse">
 						<div class="panel-body">
-							<a href="http://www.asigra.com/" target="_blank"><span class="glyphicon glyphicon-globe"></span>Asigra Inc</a>
+							<a href="http://www.asigra.com/" target="_blank"><i class="fa fa-link"></i> Asigra Inc</a>
 							<p>March 2015 - June 2015 (4 month co-op)</p>
 							<p>During my time at Asigra Inc., I performed quality assurance testing on their backup software suite. My duties at Asigra included setting up a virtual machine network, which I used to test Asigra software on Windows, Mac, and Red Hat Enterprise Linux, with some systems acting as clients and others as servers. I would then open a ticket on BugZilla, detailing various issues such as usability issues, spelling errors, and bugs present in the software. During downtime I automated the installation of some of Asigra's software on Red Hat Enterprise Linux. I also worked toward automating some of the regression testing.</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<h3>Skills</h3>
-			<p>Java, Python, Android, HTML5, PL/SQL, Javascript, CSS, C#, ASP, ADO, XML, .NET, Linux, Bash, Windows, Powershell, Networking, Virtual Machines, OS X, and many more.</p>
 			<!-- TODO: Add more below this line (e.g., interests, projects, hobbies, etc) -->
 		</div>
 		<br/>
@@ -112,12 +118,12 @@
 		<br/>
 		<footer class="footer">
 			<div class="container">
-				<span class="text-muted glyphicon glyphicon-envelope"></span>
+				<i class="text-muted fa fa-envelope"></i>
 				<span><a href="mailto:lazzarazachary@gmail.com">lazzarazachary@gmail.com</a></span>
 				<span>&nbsp;</span>
 				<span class="divider"></span>
 				<span>&nbsp;</span>
-				<span class="text-muted glyphicon glyphicon-earphone"></span>
+				<i class="text-muted fa fa-phone-alt"></i>
 				<span><a href="tel:905-580-5340">905-580-5340</a></span>
 			</div>
 		</footer>
