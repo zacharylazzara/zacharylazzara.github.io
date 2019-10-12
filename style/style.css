@@ -42,11 +42,8 @@ Availability: https://github.com/Zachary-Lazzara/Zachary-Lazzara.github.io
 }
 
 body {
-    background-color: grey;
-    background: url(../res/photos/skyline.jpg) no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
+    background: url(../res/photos/skyline.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
 @viewport {
