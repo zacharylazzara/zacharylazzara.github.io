@@ -14,6 +14,13 @@ Availability: https://github.com/Zachary-Lazzara/Zachary-Lazzara.github.io
     color: white;
 }
 
+.avatar {
+    border-radius: 50%;
+    float: left;
+    width: 130px;
+    padding-right: 10px;
+}
+
 .panel {
     background-color: #222;
     border-color: #080808;
