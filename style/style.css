@@ -16,8 +16,11 @@ Availability: https://github.com/Zachary-Lazzara/Zachary-Lazzara.github.io
 
 .avatar {
     border-radius: 50%;
-    float: left;
     width: 130px;
+}
+
+.avatar-container {
+    float: left;
     padding-right: 10px;
 }
 
