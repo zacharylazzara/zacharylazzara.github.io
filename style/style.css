@@ -50,6 +50,10 @@ Date: 08/10/2019
     border-radius: 0;
 }
 
+a:link, a:visited, a:hover, a:hover {
+    color: white;
+}
+
 body {
     background: url(../res/photos/skyline.jpg) no-repeat center fixed;
     background-size: cover;
