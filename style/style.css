@@ -50,6 +50,10 @@ Date: 08/10/2019
     border-radius: 0;
 }
 
+.ref:link, .ref:hover, .ref:visited {
+    color: white !important;
+}
+
 a:link {
     color: lightblue;
 }
@@ -60,10 +64,6 @@ a:hover {
 
 a:visited {
     color: mediumorchid;
-}
-
-.ref:link, .ref:hover, .ref:visited {
-    color: white;
 }
 
 body {
