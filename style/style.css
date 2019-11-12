@@ -3,15 +3,15 @@ Author: Zachary Lazzara
 Date: 08/10/2019
 */
 
-a:link, a:not(.ref) {
+a:link:not(.ref) {
     color: lightblue;
 }
 
-a:hover, a:not(.ref) {
+a:hover:not(.ref) {
     color: salmon;
 }
 
-a:visited, a:not(.ref) {
+a:visited:not(.ref) {
     color: mediumorchid;
 }
 
