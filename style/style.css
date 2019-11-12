@@ -50,8 +50,16 @@ Date: 08/10/2019
     border-radius: 0;
 }
 
-a:link, a:visited, a:hover, a:hover {
+a:link {
     color: lightblue;
+}
+
+a:hover {
+    color: salmon;
+}
+
+a:visited {
+    color: mediumorchid;
 }
 
 body {
