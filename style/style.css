@@ -3,6 +3,23 @@ Author: Zachary Lazzara
 Date: 08/10/2019
 */
 
+a:link {
+    color: lightblue;
+}
+
+a:hover {
+    color: salmon;
+}
+
+a:visited {
+    color: mediumorchid;
+}
+
+body {
+    background: url(../res/photos/skyline.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
 #content {
     width: 70%;
     margin-left: auto;
@@ -52,23 +69,6 @@ Date: 08/10/2019
 
 .ref:link, .ref:hover, .ref:visited {
     color: white !important;
-}
-
-a:link {
-    color: lightblue;
-}
-
-a:hover {
-    color: salmon;
-}
-
-a:visited {
-    color: mediumorchid;
-}
-
-body {
-    background: url(../res/photos/skyline.jpg) no-repeat center fixed;
-    background-size: cover;
 }
 
 @viewport {
