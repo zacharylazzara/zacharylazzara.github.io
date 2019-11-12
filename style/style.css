@@ -68,7 +68,7 @@ body {
 }
 
 .ref:link, .ref:hover, .ref:visited {
-    color: white !important;
+    color: white;
 }
 
 @viewport {
