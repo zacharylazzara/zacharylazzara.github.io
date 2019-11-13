@@ -20,6 +20,11 @@ body {
     background-size: cover;
 }
 
+#ref-avail {
+    text-align: center;
+    font-style: italic;
+}
+
 #content {
     width: 70%;
     margin-left: auto;
