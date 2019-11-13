@@ -21,7 +21,8 @@ body {
 }
 
 #ref-avail {
-    text-align: center !important;
+    text-align: center;
+    display: block;
 }
 
 #content {
