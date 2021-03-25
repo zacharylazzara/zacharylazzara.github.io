@@ -1,1 +1,1 @@
-This is my personal website. Its purpose is to serve as a portfolio and as an example of some of my work.
+This is my personal website. Its purpose is to serve as a portfolio and as an example of some of my work. When I have time I'll be redoing this site, as the site as it stands is a poor example of my work. But I'll keep it up for now, to act as an information hub.
