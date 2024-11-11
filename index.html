@@ -25,7 +25,7 @@ Date: 08/10/2019
 			$(document).ready(function() {
 				$("#nav").load("/components/nav.html");
 			});
-			$(window).load(function() {
+			$(window).on("load", function() {
 				$("#nav-item-home").addClass("active");
 			});
 		</script>
