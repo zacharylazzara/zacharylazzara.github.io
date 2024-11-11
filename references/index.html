@@ -22,8 +22,10 @@ Date: 11/11/2019
 		<link rel="icon" href="/res/favicons/logo.svg" type="image/svg+xml"> -->
 
 		<script>
-			$(function() {
+			$(document).ready(function() {
 				$("#nav").load("/components/nav.html");
+			});
+			$(window).bind("load", function() {
 				$("#nav-item-references").addClass("active");
 			});
 		</script>
