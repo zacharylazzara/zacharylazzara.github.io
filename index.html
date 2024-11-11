@@ -22,39 +22,14 @@ Date: 08/10/2019
 		<link rel="icon" href="/res/favicons/logo.svg" type="image/svg+xml"> -->
 	</head>
 	<body>
-
-		<nav id="nav-placeholder"></nav>
+		<nav class="navbar navbar-inverse" id="nav"></nav>
 		<script>
 			$(function() {
-				$("#nav-placeholder").load("/components/nav.html");
+				$("#nav").load("/components/nav.html");
+				$("#nav-item-home").addClass("active");
 			});
 		</script>
-
-		<!-- <nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="">Zachary Lazzara</a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="nav-item active"><a href="/" class="fa fa-home"></a></li>
-						<li class="nav-item"><a href="/projects/"><i class="fas fa-code fa-fw"></i> Projects</a></li>
-						<li class="nav-item"><a href="/references/"><i class="fas fa-user-tie fa-fw"></i> References</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="nav-item"><a href="https://github.com/zacharylazzara" target="_blank"><i class="fab fa-github fa-fw"></i> GitHub</a></li>
-						<li class="nav-item"><a href="https://www.hackerrank.com/zacharylazzara" target="_blank"><i class="fab fa-hackerrank fa-fw"></i> HackerRank</a></li>
-						<li class="nav-item"><a href="https://linkedin.com/in/zacharylazzara" target="_blank"><i class="fab fa-linkedin fa-fw"></i> LinkedIn</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav> -->
+		
 		<div class="well" id="content">
 			<h3>About Me</h3>
 			<p>I'm Zachary Lazzara, a Software Developer located in Oakville. I have a lifelong pasion for technology and a strong desire to build the future using my technological skills. I strive to write clean, easy to understand code that achieves low coupling and high cohesion, as this is essential for code maintainability. I have a good eye for detail and am a visual thinker.</p>
