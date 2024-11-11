@@ -22,10 +22,13 @@ Date: 08/10/2019
 		<link rel="icon" href="/res/favicons/logo.svg" type="image/svg+xml"> -->
 
 		<script>
+			$.ajaxSetup({
+				cache: false
+			});
 			$(document).ready(function() {
 				$("#nav").load("/components/nav.html");
 			});
-			$(document).on("page:load", function() {
+			$(window).bind("load", function() {
 				$("#nav-item-home").addClass("active");
 			});
 		</script>
