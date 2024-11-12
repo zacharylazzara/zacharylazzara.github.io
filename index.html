@@ -24,10 +24,13 @@ Date: 08/10/2019
 		<script>
 			$(document).ready(function() {
 				$("#nav").load("/components/nav.html");
+				$("#nav-item-home").load(function() {
+					$("#nav-item-home").addClass("active");
+				})
 			});
-			$(window).bind("load", function() {
-				$("#nav-item-home").addClass("active");
-			});
+			// $(window).bind("load", function() {
+			// 	$("#nav-item-home").addClass("active");
+			// });
 		</script>
 	</head>
 	<body>
