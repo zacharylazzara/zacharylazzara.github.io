@@ -25,9 +25,9 @@ Date: 08/10/2019
 			$(document).ready(function() {
 				$("#nav").load("/components/nav.html");
 			});
-			$(window).on("load", function() {
+			window.onload = function() {
 				$("#nav-item-projects").addClass("active");
-			});
+			};
 		</script>
 	</head>
 	<body>
