@@ -20,14 +20,12 @@ Date: 08/10/2019
 		<link href="/style/style.css" rel="stylesheet"/>
 		<!-- <link rel="icon" href="/res/favicons/logo.png" type="image/png">
 		<link rel="icon" href="/res/favicons/logo.svg" type="image/svg+xml"> -->
-
-
-		<!-- TODO: use page sections instead of multiple pages (we can load the page contents like we're loading the navbar if needed) -->
-
+		
 		<script>
 			$(document).ready(function() {
-				$("#nav").load("/components/nav.html");
-				$("#nav-item-home").addClass("active");
+				$("#nav").load("/components/nav.html", function() {
+					$("#nav-item-home").addClass("active");
+				});
 			});
 		</script>
 	</head>

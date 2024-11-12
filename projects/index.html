@@ -23,8 +23,9 @@ Date: 08/10/2019
 
 		<script>
 			$(document).ready(function() {
-				$("#nav").load("/components/nav.html");
-				$("#nav-item-projects").addClass("active");
+				$("#nav").load("/components/nav.html", function() {
+					$("#nav-item-projects").addClass("active");
+				});
 			});
 		</script>
 	</head>
